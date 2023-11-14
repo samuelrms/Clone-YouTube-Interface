@@ -17,9 +17,9 @@ export default function MyDocument({ emotionStyleTags }: MyDocumentProps) {
     <Html lang="pt-BR" className={roboto.className}>
       <Head>
         <meta name="theme-color" content={customTheme.palette.primary.main} />
-        <link rel="shortcut icon" href="/public/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="/iconImage.ico" />
         <meta name="emotion-insertion-point" content="" />
-        {emotionStyleTags}
+        {...emotionStyleTags}
       </Head>
       <body>
         <Main />

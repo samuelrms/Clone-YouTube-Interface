@@ -1,6 +1,8 @@
-import { Roboto } from 'next/font/google';
 import { ThemeOptions, createTheme } from '@mui/material/styles';
+import { Roboto } from 'next/font/google';
 import { colors } from '@mui/material';
+
+import { ExtendedBackground } from './theme.types';
 
 export const roboto = Roboto({
   weight: ['300', '400', '500', '700'],
@@ -23,7 +25,7 @@ export const theme: ThemeOptions = {
       default: colors.common.white,
       dark: '#f4f6f8',
       paper: colors.common.white,
-    },
+    } as ExtendedBackground,
     text: {
       primary: colors.blueGrey[900],
       secondary: colors.blueGrey[600],

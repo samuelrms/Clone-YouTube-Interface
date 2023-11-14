@@ -1,7 +1,5 @@
-import React from 'react';
-
 const Home = () => {
-  return <main>Clone YT</main>;
+  return <main>Hello</main>;
 };
 
 export default Home;

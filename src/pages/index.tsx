@@ -1,10 +1,17 @@
 import { Button } from '@mui/material';
 
+import { Layout } from '@/components';
+
 const Home = () => {
   return (
-    <main>
-      <Button variant="contained">Hello</Button>
-    </main>
+    <Layout
+      title="YouTube"
+      description="YouTube homepage, the best videos here!"
+    >
+      <Button variant="outlined" color="secondary">
+        Hello
+      </Button>
+    </Layout>
   );
 };
 

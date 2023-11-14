@@ -8,7 +8,7 @@ export type ExtendedBackground = {
 export type CustomTheme = typeof theme;
 
 export type ExtendTheme = {
-  theme: {
+  theme?: {
     background: ExtendedBackground;
   } & CustomTheme;
 };

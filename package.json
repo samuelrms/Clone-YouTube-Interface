@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit": "git-cz"
   },
   "dependencies": {
     "next": "14.0.2",
@@ -22,6 +23,8 @@
     "@types/react-dom": "^18",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
     "autoprefixer": "^10.0.1",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.0.1",
     "eslint-config-next": "14.0.2",
     "eslint-config-prettier": "^9.0.0",
@@ -40,6 +43,11 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }

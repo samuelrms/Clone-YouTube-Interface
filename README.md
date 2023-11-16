@@ -26,9 +26,11 @@ Desenvolvendo este projeto foquei nos seguintes pontos que julgo cruciais para t
 
 - Sobre arquitetura de pastas, o projeto segue uma estrutura básica, onde:
 
-  - [pages](https://github.com/samuelrms/clone-yt-home-interface/tree/main/src/pages): páginas da aplicação.
+  - [pages](https://github.com/samuelrms/Clone-YouTube-Interface/tree/main/src/pages): páginas da aplicação.
 
-  - [theme](https://github.com/samuelrms/clone-yt-home-interface/tree/main/src/theme): configuração de temas da aplicação.
+  - [theme](https://github.com/samuelrms/Clone-YouTube-Interface/tree/main/src/theme): configuração de temas da aplicação.
+    
+  - [components](https://github.com/samuelrms/Clone-YouTube-Interface/tree/main/src/components): components da aplicação.
 
 ## Rodando o projeto
 
@@ -54,7 +56,8 @@ yarn build
 
 **Para fazer o build do projeto para produção.**
 
-![image](public/next.svg)
+![image](https://github.com/samuelrms/Clone-YouTube-Interface/assets/92615688/a0970b7c-40f6-4c98-9987-eadb0b5aa3ee)
+
 
 ## Desenvolvimento
 
@@ -62,7 +65,7 @@ yarn build
 
 ## Link page
 
-[Clone YT Interface]()
+[Clone YT Interface](https://youtube-interface-samuelramos-dev.vercel.app/)
 
 ## Conclusão
 

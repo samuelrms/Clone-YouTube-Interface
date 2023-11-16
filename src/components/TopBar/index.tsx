@@ -7,7 +7,7 @@ import {
   VideoCallOutlined,
 } from '@mui/icons-material';
 
-import { SignInButton } from '../SignInButton';
+import { SignInButton } from '..';
 import {
   Logo,
   Root,

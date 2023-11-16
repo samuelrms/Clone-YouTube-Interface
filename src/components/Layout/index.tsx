@@ -1,8 +1,7 @@
 import { Content, ContentContainer, Root, Wrapper } from './Layout.styles';
 import Head from 'next/head';
 import { LayoutProps } from './Layout.types';
-import { TopBar } from '../TopBar';
-import { NavBar } from '../NavBar';
+import { NavBar, TopBar } from '..';
 
 export const Layout = ({ children, title, description }: LayoutProps) => {
   return (

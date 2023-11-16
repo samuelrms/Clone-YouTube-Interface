@@ -1,6 +1,6 @@
 import { Theme, useMediaQuery } from '@mui/material';
 import { DesktopDrawer } from './NavBar.styles';
-import { ContentNavBar } from '../ContentNavBar';
+import { ContentNavBar } from '..';
 
 const styles = {
   mobileDrawer: {

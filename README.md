@@ -40,15 +40,11 @@ yarn
 
 **Para instalar as dependências do projeto.**
 
-<br>
-
 ```
 yarn dev
 ```
 
 **Para rodar o projeto em modo de desenvolvimento.**
-
-<br>
 
 ```
 yarn build

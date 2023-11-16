@@ -31,6 +31,13 @@ export const theme: ThemeOptions = {
       secondary: colors.blueGrey[600],
     },
   },
+  components: {
+    MuiButtonBase: {
+      defaultProps: {
+        disableRipple: true,
+      },
+    },
+  },
 };
 
 export const customTheme = createTheme(theme);

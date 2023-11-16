@@ -1,5 +1,13 @@
 import { ExtendTheme } from '@/theme/theme.types';
-import { List, ListItemButton, ListItemText, styled } from '@mui/material';
+import {
+  List,
+  ListItemButton,
+  ListItemText,
+  Stack,
+  styled,
+} from '@mui/material';
+
+export const Root = styled(Stack)<ExtendTheme>(({ theme }) => ({}));
 
 export const ListContainer = styled(List)<ExtendTheme>(({ theme }) => ({
   padding: 0,

@@ -1,4 +1,4 @@
-import { Home, LocalMallOutlined, WhatshotOutlined } from '@mui/icons-material';
+import { LocalMallOutlined, WhatshotOutlined } from '@mui/icons-material';
 import { SiYoutubeshorts } from 'react-icons/si';
 import { MdOutlineMovie, MdOutlineSubscriptions } from 'react-icons/md';
 import {
@@ -7,7 +7,11 @@ import {
   RiSignalTowerLine,
   RiAddCircleLine,
 } from 'react-icons/ri';
-import { PiGameController, PiMusicNoteLight } from 'react-icons/pi';
+import {
+  PiGameController,
+  PiHouse,
+  PiMusicNoteLight,
+} from 'react-icons/pi';
 import { HiMiniSignal } from 'react-icons/hi2';
 import { FaRegNewspaper } from 'react-icons/fa';
 import { CiCircleAlert, CiFlag1, CiTrophy } from 'react-icons/ci';
@@ -21,7 +25,7 @@ export const initialData = [
     id: 1,
     title: 'Home',
     path: '/',
-    icon: Home,
+    icon: PiHouse,
   },
   {
     id: 2,

@@ -12,6 +12,7 @@ import {
   ListContainer,
   ListItemsButton,
   ListItemsText,
+  Root,
 } from './ContentNavBar.styles';
 import {
   exploreData,
@@ -33,7 +34,7 @@ export const ContentNavBar = () => {
   };
 
   return (
-    <Stack height={'100%'} gap={1} px={2}>
+    <Root gap={1} px={2}>
       <ListContainer>
         {initialData.map((item) => {
           const Icon = item.icon;
@@ -75,7 +76,7 @@ export const ContentNavBar = () => {
       </ListContainer>
       <Divider />
       <Stack px={1} pb={1}>
-        <Typography maxWidth={200} px={1} pb={2}>
+        <Typography maxWidth={200} px={1}>
           Faça login para curtir vídeos, comentar e se inscrever.
         </Typography>
         <SignInButton />
@@ -83,9 +84,7 @@ export const ContentNavBar = () => {
       <Divider />
       <ListContainer
         subheader={
-          <Typography variant="subtitle2" pb={2}>
-            {exploreData.title}
-          </Typography>
+          <Typography variant="subtitle2">{exploreData.title}</Typography>
         }
       >
         {exploreData.items.map((item) => {
@@ -128,9 +127,7 @@ export const ContentNavBar = () => {
       <Divider />
       <ListContainer
         subheader={
-          <Typography variant="subtitle2" pb={2}>
-            {exploreData.title}
-          </Typography>
+          <Typography variant="subtitle2">{exploreData.title}</Typography>
         }
       >
         {moreYouTube.items.map((item) => {
@@ -175,6 +172,6 @@ export const ContentNavBar = () => {
           );
         })}
       </ListContainer>
-    </Stack>
+    </Root>
   );
 };

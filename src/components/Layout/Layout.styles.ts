@@ -1,5 +1,5 @@
 import { ExtendTheme } from '@/theme/theme.types';
-import { Stack, styled } from '@mui/material';
+import { Stack, darken, styled } from '@mui/material';
 
 export const Root = styled('main')<ExtendTheme>(({ theme }) => ({
   background: theme?.background?.dark,
